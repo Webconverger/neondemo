@@ -1,4 +1,6 @@
 setInterval(function() {
 var nocache = Math.random();
-document.getElementById('manage').src = "foobar.js?" + nocache;
+var script = document.createElement('script')
+script.src = "foobar.js?" + nocache;
+document.body.appendChild(script)
 }, 2000);
