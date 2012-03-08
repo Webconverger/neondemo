@@ -7,7 +7,6 @@ It should prompt you a URL you need to take another browser, to control what Web
 # Demo
 
 * http://demo.webconverger.com
-* http://demo2.webconverger.com
 * http://demo3.webconverger.com
 
 # Limitations
