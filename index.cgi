@@ -19,8 +19,8 @@ Content-Type: text/html
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
-<link id='theme' rel='stylesheet' href='humane-js/themes/bigbox.css'/>
-<script src="humane-js/humane.min.js"></script>
+<link id='theme' rel='stylesheet' href='bigbox.css'/> <!-- humane theme -->
+<script src="humane.min.js"></script>
 <script src="main.js"></script>
 </head>
 <body>

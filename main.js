@@ -11,11 +11,14 @@ function getQueryVariable(variable) {
 
 uniqueID = getQueryVariable("macid");
 humane.timeout = 0;
-humane("Control this demo by going to http://" + window.location.hostname + "/" + uniqueID);
-
+if (uniqueID) {
+humane.info("Control this demo by going to http://" + window.location.hostname + "/" + uniqueID);
 setInterval(function() {
 var nocache = Math.random();
 var script = document.createElement('script')
 script.src = uniqueID + "/main.js?" + nocache;
 document.body.appendChild(script)
 }, 2000);
+} else {
+humane.error("Please specify a /?macid= query");
+}
