@@ -32,6 +32,7 @@ Content-Type: text/html
 <ul>
 <li><a href="index.cgi?page=http%3A%2F%2Fneon.webconverger.com%2F">Neon main</a></li>
 <li><a href="index.cgi?page=http%3A%2F%2Fneon.webconverger.com%2Fcase-study%2F">Neon case study</a></li>
+<li><a href="index.cgi?page=https%3A%2F%2Frvashow.appspot.com%2FViewer.html%3Ftype%3Ddisplay%26id%3D36e8dd70-34af-4faf-9c39-991d54a87259">Rise test card</a></li>
 <li><a href="index.cgi?page=http%3A%2F%2Fwebconverger.com%2F">Webconverger</a></li>
 <li><a href="index.cgi?page=http%3A%2F%2Fwww.gov.sg%2F">gov.sg</a></li>
 <li><a href="index.cgi?page=http%3A%2F%2Fwww.smu.edu.sg%2F">SMU</a></li>
