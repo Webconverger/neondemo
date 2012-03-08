@@ -19,13 +19,17 @@ Content-Type: text/html
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link id='theme' rel='stylesheet' href='humane-js/themes/bigbox.css'/>
+<script src="humane-js/humane.min.js"></script>
+<script src="main.js"></script>
 </head>
+<body>
 
 <script id="manage"></script>
 
 <iframe id="i" style="border: 0; width: 100%; height: 100%">Your browser doesn't support iFrames.</iframe>
 
-<script src="main.js"></script>
+</body>
 
 </html>
 END

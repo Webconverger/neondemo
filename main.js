@@ -9,9 +9,11 @@ function getQueryVariable(variable) {
 	}
 }
 
-setInterval(function() {
 uniqueID = getQueryVariable("macid");
-console.log(uniqueID);
+humane.timeout = 0;
+humane("Control this demo by going to http://" + window.location.hostname + "/" + uniqueID);
+
+setInterval(function() {
 var nocache = Math.random();
 var script = document.createElement('script')
 script.src = uniqueID + "/main.js?" + nocache;

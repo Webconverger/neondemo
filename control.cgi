@@ -51,6 +51,7 @@ then
 fi
 
 cat <<END > main.js
+humane.remove()
 var newNeonURL = "$page";
 if (document.getElementById('i').src != newNeonURL) {
 	document.getElementById('i').src = newNeonURL;
