@@ -7,9 +7,9 @@ IFS='=&'
 parm=($QUERY_STRING)
 IFS=$saveIFS
 
-if test "${parm[0]}" == "macid"
+if test "${parm[0]}" == "mac"
 then
-	macid=$(/bin/busybox httpd -d "${parm[1]}")
+	mac=$(/bin/busybox httpd -d "${parm[1]}")
 fi
 
 cat <<END
@@ -34,8 +34,8 @@ Content-Type: text/html
 </html>
 END
 
-if test "$macid"
+if test "$mac"
 then
-	mkdir -p $macid
-	cp control.cgi $macid/index.cgi
+	mkdir -p $mac
+	cp control.cgi $mac/index.cgi
 fi

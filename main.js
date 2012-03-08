@@ -9,16 +9,16 @@ function getQueryVariable(variable) {
 	}
 }
 
-uniqueID = getQueryVariable("macid");
+uniqueID = getQueryVariable("mac");
 humane.timeout = 0;
 if (uniqueID) {
-humane.info("Control this demo by going to http://" + window.location.hostname + "/" + uniqueID);
+humane.info("Control this demo by going to http://" + window.location.hostname + "/\n" + uniqueID);
 setInterval(function() {
 var nocache = Math.random();
 var script = document.createElement('script')
 script.src = uniqueID + "/main.js?" + nocache;
 document.body.appendChild(script)
-}, 2000);
+}, 3000);
 } else {
-humane.error("Please specify a /?macid= query");
+humane.error("Please specify a /?mac= query");
 }
