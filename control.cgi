@@ -42,6 +42,7 @@ Content-Type: text/html
 <li><a href="index.cgi?page=http%3A%2F%2Fnews.bbc.co.uk%2F">BBC news</a></li>
 </ul>
 
+<p><a href="https://github.com/Webconverger/neondemo">Source code</a></p>
 
 END
 
