@@ -18,7 +18,7 @@ var nocache = Math.random();
 var script = document.createElement('script')
 script.src = uniqueID + "/main.js?" + nocache;
 document.body.appendChild(script)
-}, 3000);
+}, 1000);
 } else {
 humane.error("Please specify a /?mac= query");
 }

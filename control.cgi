@@ -52,6 +52,8 @@ then
 	exit
 fi
 
+test "$(basename $0)" = "index.cgi" || exit
+
 cat <<END > main.js
 humane.remove()
 var newNeonURL = "$page";
