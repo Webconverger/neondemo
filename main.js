@@ -12,7 +12,7 @@ function getQueryVariable(variable) {
 uniqueID = getQueryVariable("mac");
 humane.timeout = 0;
 if (uniqueID) {
-humane.info("Control this demo by going to http://" + window.location.hostname + "/" + uniqueID + "\non another browser.");
+humane.info("Control this demo by scanning <br> <img src=\"https://chart.googleapis.com/chart?chs=547x547&cht=qr&chl=http://" + window.location.hostname + "/" + uniqueID + "&choe=UTF-8\">");
 setInterval(function() {
 var nocache = Math.random();
 var script = document.createElement('script')
