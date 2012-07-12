@@ -22,12 +22,19 @@ Content-Type: text/html
 <link id='theme' rel='stylesheet' href='bigbox.css'/> <!-- humane theme -->
 <script src="humane.min.js"></script>
 <script src="main.js"></script>
+<style>
+  div {border: 0; width: 100%; height: 100%; overflow:hidden}
+  iframe {border: 0; width: 100%; height: 100%; overflow:hidden}
+</style>
 </head>
 <body>
 
 <script id="manage"></script>
 
-<iframe id="i" style="border: 0; width: 100%; height: 100%">Your browser doesn't support iFrames.</iframe>
+<div>
+<iframe id="i">Your browser doesn't support iFrames, get <a href="http://neon.webconverger.com/">Neon</a> that does.</iframe>
+</div>
+
 
 </body>
 

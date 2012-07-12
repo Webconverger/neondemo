@@ -36,8 +36,9 @@ Content-Type: text/html
 <li><a href="index.cgi?page=http%3A%2F%2Fwebconverger.com%2F">Webconverger</a></li>
 <li><a href="index.cgi?page=http%3A%2F%2Fwww.gov.sg%2F">gov.sg</a></li>
 <li><a href="index.cgi?page=http%3A%2F%2Fwww.smu.edu.sg%2F">SMU</a></li>
+<li><a href="index.cgi?page=http%3A%2F%2F192.168.5.1%3A8080%2F%3Faction%3Dstream">webcam</a></li>
 <li><a href="index.cgi?page=http%3A%2F%2Fwww.straitstimes.com%2F">Straits Times</a></li>
-<li><a href="index.cgi?page=http%3A%2F%2Fsingapore.menulog.com%2Flawrys_the_prime_rib_singapore%2Fmenus%3FmenuId%3D277150">Menu demo</a></li>
+<li><a href="index.cgi?page=http%3A%2F%2Fwww.fish-co.com/menu/fish-bites">Menu demo</a></li>
 <li><a href="index.cgi?page=http%3A%2F%2Fplay.renewchannel.com%2F">Renew demo</a></li>
 <li><a href="index.cgi?page=http%3A%2F%2Fnews.bbc.co.uk%2F">BBC news</a></li>
 </ul>

@@ -12,5 +12,5 @@ do
 		echo Already cleaned up.
 		continue
 	fi
-	rm -rf $(dirname $i)
+	rm -vrf $(dirname $i)
 done

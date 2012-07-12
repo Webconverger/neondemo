@@ -1,3 +1,1 @@
-ExpiresActive On
-ExpiresDefault "access"
 DirectoryIndex index.cgi
